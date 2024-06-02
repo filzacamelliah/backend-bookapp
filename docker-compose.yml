@@ -5,18 +5,3 @@ services:
     build: .
     ports:
       - "8000:8000"
-    # depends_on:
-    #   - mongodb
-#     volumes:
-#       - type: volume
-#         source: mongovolume
-#         target: /data/db
-#       - type: volume
-#         source: mongoconfig
-#         target: /data/configdb
-
-# volumes:
-#   mongovolume:
-#     name: mongovolume
-#   mongoconfig:
-#     name: mongoconfig
