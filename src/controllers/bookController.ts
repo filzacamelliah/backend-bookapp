@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { Book } from "../models/bookSchema";
-import { bookRouter } from "../routes/bookRoute";
+// import { bookRouter } from "../routes/bookRoute";
 
 export const bookController = {
   getData: async (req: Request, res: Response) => {
